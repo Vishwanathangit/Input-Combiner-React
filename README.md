@@ -1,16 +1,69 @@
-<<<<<<< HEAD
-# React + Vite
+# 🔢 Smart Input Combiner - React + TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet intelligent React app that **adds numbers** or **combines strings** based on user input. This project showcases dynamic behavior in form handling using React's state management, styled beautifully with Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add two numeric values
+- Concatenate two strings if inputs are not numbers
+- Responsive and modern UI with Tailwind CSS
+- Uses React functional components and hooks
+- Displays result dynamically
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Input-Combiner-React
->>>>>>> 6b9b1adf28a956ab1c9c8305731dfc458e9d0e5c
+- **React** – Frontend library
+- **Tailwind CSS** – Utility-first CSS framework
+- **Vite** – Fast build tool for modern web projects
+
+## 📂 Project Structure
+
+<Pre>
+  ```
+  multiple-input-react/
+├── node_modules/
+├── public/
+│   ├── assets/                # Static assets (images, fonts, etc.)
+│   └── index.html            # Main HTML template
+├── src/
+│   ├── App.css               # Main application styles
+│   ├── App.jsx               # Root React component
+│   ├── index.css             # Global styles
+│   ├── main.jsx              # Application entry point
+│   ├── MultipleInp.jsx       # Multiple input component
+│   └── ResultComp.jsx        # Results display component
+├── .gitignore
+├── .eslint.config.js         # ESLint configuration
+├── package-lock.json
+├── package.json              # Project dependencies and scripts
+├── README.md                 # Project documentation
+└── vite.config.js            # Vite configuration
+  ```
+</Pre>
+
+
+## 💡 How to Use
+
+1. **Clone the Repository**
+
+   git clone https://github.com/yourusername/smart-input-combiner.git
+   cd smart-input-combiner
+
+2. Install Dependencies
+
+   npm install
+   
+3.Run the App
+
+ npm run dev
+
+✨ How It Works
+If both inputs are valid numbers → it adds them.
+
+If one or both are not numbers → it joins them as strings with a space in between.
+
+Output is shown dynamically below the form.
+
+GitHub Repo : [https://github.com/Vishwanathangit/Input-Combiner-React.git]
+
+LiveDemo : [https://input-combiner-react.vercel.app/]
